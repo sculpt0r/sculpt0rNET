@@ -1,0 +1,23 @@
+body {
+    border: 0px;
+    margin: 0px;
+    padding: 0px;
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-items: center;
+    height: 100vh;
+}
+
+a {
+    color: rgb(199, 199, 199);
+    text-decoration: none;
+    border: 1px solid #FFF;
+    padding: 15px 17px;
+    margin: 1vw;
+}
+
+a:hover {
+    color: #FFF;
+}
