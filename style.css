@@ -3,11 +3,11 @@ body {
     margin: 0px;
     padding: 0px;
     background-color: #000;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    align-items: center;
-    height: 100vh;
+}
+
+div {
+    margin-top: 35vh;
+    text-align: center;
 }
 
 a {
@@ -16,7 +16,7 @@ a {
     border-bottom-right-radius: 225px 15px;
     border-bottom-left-radius: 15px 255px;
 
-    border:solid 2px #e2dfda;
+    border: solid 2px #e2dfda;
     color: rgb(199, 199, 199);
     text-decoration: none;
     padding: 15px 17px;
@@ -25,4 +25,10 @@ a {
 
 a:hover {
     color: #FFF;
+}
+
+a.small {
+    font-size: 10px;
+    color: rgba(199, 199, 199, 0.5);
+    border-color: rgba(199, 199, 199, 0.5);
 }
